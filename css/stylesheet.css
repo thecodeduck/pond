@@ -1,0 +1,41 @@
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+/*   min-width: 100vw;
+  min-height: 100vh; */
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+    color: #2d3338;
+}
+h1, h2 {
+  font-family: 'Staatliches', cursive;
+}
+
+div {
+  min-width: 300px;
+}
+a {
+  color: #2565a0;
+  weight: bold;
+}
+#contact {
+  background-color: rgba(0,0,0,0.14);
+  border-radius: 2px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+#contact p, #contact a {
+  margin: .4rem;
+  font-weight: 600;
+}
